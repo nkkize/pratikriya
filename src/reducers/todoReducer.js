@@ -1,11 +1,13 @@
 let initState = {
-    name: "narender"
+    todoData: {
+        name: "narender"
+    }
 }
 
-const todo = (state = initState, action) => {
+const todo = (state = initState.todoData, action) => {
     switch(action) {
         default:
-            return state;
+          return state;
     }
 
 }
