@@ -4,12 +4,13 @@
 # Create App Dev Notes
 1. `npx nano-react-app <app_name>`
 > Parcel is the build tool
-2. install redux
-3. install react-redux
-4. create a reducer folder
-5. create `store-config` which return the redux store
-6. use `combineReducers` to combine and return each reducer
-7. Link the reducers to the react main app (index.js). Wrap your app inside react-redux *Provider*
+2. install redux : `npm install redux`
+3. install react-redux: `npm install react-redux`
+4. create a src/reducer folder
+5. create `reducers/store-config.js` file which return the redux store
+6. use `combineReducers` module in `reducers/index.js` to combine and return each reducer
+7. Link the reducers to the react main app (index.js).
+8. Wrap your app inside react-redux *Provider*
 
 # Starting the Application
 - `npm install` - This will install all the dependencies. 
